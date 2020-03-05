@@ -1,0 +1,12 @@
+#!/bin/bash
+#
+# EAP arvestus
+echo -n "Sisestage ainepunktide arv: "
+read AinepunktideArv
+echo -n "Sisestage nadalate arv: "
+read NadalateArv
+ArvestusTunnid=`expr $AinepunktideArv \* 26`
+Lopparvestus=`echo "scale=1; $ArvestusTunnid / $NadalateArv" | bc`
+aeg=`echo "($Lopparvestus + 0.9)/1" | bc `
+echo $aeg
+#

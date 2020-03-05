@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+#presidendi valimised
+aasta="2006" 
+president="Toomas Hendrik Ilves"
+lause_keskosa=". aastal valiti Eesti presidendiks "
+lause="$aasta$lause_keskosa$president"
+echo $lause
+#
+#programmi lõpp

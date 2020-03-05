@@ -1,0 +1,12 @@
+#!/bin/bash
+#
+# kuupaeva ja aja info
+#
+# skripti algus
+#
+echo
+date +"Todays is %A, %B %d, %Y"
+date +"Time is %H:%M"
+echo -n "Calendar of $(cal)"
+#
+#skripti lõpp

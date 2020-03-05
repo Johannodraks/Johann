@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+#minu muljed antud ainest
+#
+echo "Johann-Gregori Odraks" # väljasta Johann-Gregori Odraks ja tee reavahetus
+echo "IS19" # väljasta IS19 ja tee reavahetus
+echo "Just alustasin antud ainega, ei ole veel päris tuttav." # väljasta ja tee reavahetus
+echo "Tundub, et saan hetkel hästi hakkama."

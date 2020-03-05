@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+#serveri seisundi valjastamine
+#
+#skripti algus
+#
+echo
+echo -n `hostname`
+echo -n  "@"
+uptime | cut -f1 -d ","

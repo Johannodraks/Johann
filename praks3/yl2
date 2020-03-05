@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+# sorteeritud login
+#
+# skripti algus
+#
+echo 
+#jargmised read peavad olema sisestatud yhe reana
+find /var/ -name "*.log" -a -type f 2> /dev/null -exec wc -l {} \; | sort -g -r | cut -f2 -d" "
+#yhe reana sisestatud käsude lopp
+echo 
+#
+# skripti lopp
